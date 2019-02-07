@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   var a = Math.random(Math.round() ** 10000000);
+      //   a = a.toString(36).replace(/^[0-9.]{0,}/, ``);
+      //   a = `${a[0].toUpperCase()}${a.slice(1)} ${getRandChar()}.`;
+      //   function getRandChar() {
+      //     var arr = [];
+      //     for (var i = 10; i < 37; i++) {
+      //       arr.push(i.toString(36));
+      //     }
+      //     return arr[Math.round(Math.random() * 25)].toUpperCase();
+      //   }
+      //   console.log(a);
+      //как преобразовывать число в строку. Разобрать дома.
+
+      //Обьект
+      //   var a = {
+      //     key: 10,
+      //     "test-1": 10,
+      //     "@sas": 10,
+      //     "1": 10,
+      //     res: `123`,
+      //     boolean: true
+      //   };
+
+      //   console.log(a[1]);
+      //   console.log(a[`res`]);
+      //   console.log(a[1]);
+      //asdasdasdasdasdasdasdasdasdasdasd
+      // var candidat ={
+      //     age:35,
+      //     bane: "Aaaaa Bbbbbb",
+      //     gende: "male",
+      //     skils: [
+      //         `js`, `html`, `css`, `less`
+      //     ],
+      //     works:[
+      //         {
+      //             companyName:`Ukrtelecom`,
+      //             ageWork:11
+      //         }
+      //         works:[
+      //         {
+      //             companyName:`Ukrtelecom`,
+      //             ageWork:11
+      //         }
+      //     ]
+      //     about:
+      // }
+      //asdasdasdasdasdasdasdadasdasdasdasdasd
+      //         var chocolate = {
+      //           color: ["black", "white", "yellow"],
+      //           name: ["korona", "milka", "kinder", "millemium"],
+      //           form: {
+      //             me: "plitka",
+      //             me: "korobka",
+      //             mu: "paket"
+      //           }
+      //         };
+
+      //         console.log(chocolate);
+      //         console.log(me);
+      //         var user = me;
+      // user.name = "123";
+
+      //мой пример
+      var name = prompt("name");
+      var telefone = prompt("telefone");
+      var date = prompt("date");
+
+      class Anketa {
+        constructor(name, telefone, date) {
+          this.name = name;
+          this.telefone = telefone;
+          this.date = date;
+        }
+      }
+      var createNew = new Anketa(name, telefone, date);
+      console.log(createNew);
+    </script>
+  </body>
+</html>
